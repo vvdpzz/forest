@@ -8,3 +8,7 @@
 //= require jquery_ujs
 //= require app
 //= require_tree .
+
+$(function(){
+  new App({el: $('#article')});
+});

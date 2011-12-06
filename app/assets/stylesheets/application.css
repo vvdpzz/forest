@@ -30,3 +30,7 @@
   font-weight: normal;
   src: local('PT Sans'), local('PTSans-Regular'), url('http://themes.googleusercontent.com/static/fonts/ptsans/v2/7YGmE4Ls5b94ct65u07hVQLUuEpTyoUstqEm5AMlJo4.woff') format('woff');
 }
+
+.stack > *:not(.active) {
+  display: none;
+}

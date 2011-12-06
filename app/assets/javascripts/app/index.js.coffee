@@ -15,10 +15,8 @@ class App extends Spine.Controller
   constructor: ->
     super
     
-    # Initialize controllers:
-    #  @append(@items = new App.Items)
-    #  ...
-    
+    @prepend(@posts = new App.Posts) 
+
     Spine.Route.setup()    
 
 window.App = App

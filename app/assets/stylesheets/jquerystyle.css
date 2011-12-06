@@ -831,7 +831,7 @@ a.cat_link:hover {
 		z-index: 0;
 }
 #main {
-		background: url(/-/img/ajaxLoader.gif) no-repeat center top;
+//    background: url(/assets/ajaxLoader.gif) no-repeat center top;
 }
 #main.isotope {
 		background: none;

@@ -1,0 +1,32 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+*/
+
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Cousine'), url('http://themes.googleusercontent.com/static/fonts/cousine/v3/S-JOYqoHekxYm2RHFzWYtgLUuEpTyoUstqEm5AMlJo4.woff') format('woff');
+}
+@font-face {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Cousine Bold'), local('Cousine-Bold'), url('http://themes.googleusercontent.com/static/fonts/cousine/v3/XkYjaL8YjqL9qW8o0T14ub3hpw3pgy2gAi-Ip7WPMi0.woff') format('woff');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url('http://themes.googleusercontent.com/static/fonts/ptsans/v2/0XxGQsSc1g4rdRdjJKZrNL3hpw3pgy2gAi-Ip7WPMi0.woff') format('woff');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PT Sans'), local('PTSans-Regular'), url('http://themes.googleusercontent.com/static/fonts/ptsans/v2/7YGmE4Ls5b94ct65u07hVQLUuEpTyoUstqEm5AMlJo4.woff') format('woff');
+}

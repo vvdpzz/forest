@@ -23,10 +23,13 @@ like `Hacker News `
 like `stackoverflow` & `quora`
 
 ## Wiki
-like `github wiki`
+like `github wiki`  
+build by [gollum][1] -- A wiki built on top of Git
 
 ##  Whisper
 like `campfire`, open API, show some notifications when something happened
 
 ## History
 like `Path 2`, a timeline
+
+[1]: https://github.com/github/gollum
